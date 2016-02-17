@@ -1,8 +1,8 @@
 # spython
+Nefarious tools written in python. Originally written for a net sec class, now compiled due to a joke.
 
-Nefarious tools written in python.
 
-Many inspired by my net sec class.
-
+## Inspiration
+![our inspiration](https://raw.githubusercontent.com/Pizzorni/spython/master/inspiration.png)
 ## Dependencies
 * scapy v2.0+
