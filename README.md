@@ -5,4 +5,5 @@ Nefarious tools written in python. Originally written for a net sec class, now c
 ## Inspiration
 ![our inspiration](https://raw.githubusercontent.com/Pizzorni/spython/master/inspiration.png)
 ## Dependencies
+* Python 2.7
 * scapy v2.0+
